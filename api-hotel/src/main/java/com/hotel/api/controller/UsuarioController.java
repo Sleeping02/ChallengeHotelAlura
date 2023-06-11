@@ -1,19 +1,19 @@
-package com.hotel.api.controller;
+// package com.hotel.api.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RestController;
 
-import com.hotel.api.domain.usuario.UsuarioRepository;
+// import com.hotel.api.domain.usuario.UsuarioRepository;
 
-@RestController
-@RequestMapping("/usuarios")
-public class UsuarioController {
-    private final UsuarioRepository usuarioRepository;
+// @RestController
+// @RequestMapping("/usuarios")
+// public class UsuarioController {
+//     private final UsuarioRepository usuarioRepository;
 
-    @Autowired
-    public UsuarioController(UsuarioRepository usuarioRepository){
-        this.usuarioRepository = usuarioRepository;
-    }
+//     @Autowired
+//     public UsuarioController(UsuarioRepository usuarioRepository){
+//         this.usuarioRepository = usuarioRepository;
+//     }
     
-}
+// }
